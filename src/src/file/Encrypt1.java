@@ -1,6 +1,6 @@
-package encapsulation;
+package file;
 
-public class Student {
+public class Encrypt1 {
 
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub

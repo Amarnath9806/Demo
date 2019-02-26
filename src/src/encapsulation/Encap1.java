@@ -2,7 +2,7 @@ package encapsulation;
 
 import java.io.Serializable;
 
-public class Encap1 {
+public class Encap1 implements Serializable{
 
 	private String name;
 	private int roll;
@@ -25,5 +25,4 @@ public class Encap1 {
 	public void setFee(double fee) {
 		this.fee = fee;
 	}
-
-	}
+}

@@ -1,12 +1,11 @@
 package encapsulation;
 
-import java.io.Serializable;
-
-public class Encap1 {
+public class Encap {
 
 	private String name;
 	private int roll;
 	private double fee;
+	private static String college;
 	public String getName() {
 		return name;
 	}
@@ -25,5 +24,11 @@ public class Encap1 {
 	public void setFee(double fee) {
 		this.fee = fee;
 	}
-
+	public String getCollege() {
+		return college;
 	}
+	public void setCollege(String college) {
+		this.college = college;
+	}
+}
+//POJO Class

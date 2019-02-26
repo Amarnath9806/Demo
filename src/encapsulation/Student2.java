@@ -1,12 +1,14 @@
 package encapsulation;
 
-import java.io.Serializable;
-
-public class Encap1 {
-
+public class Student2 implements Comparable<Student2> {
 	private String name;
 	private int roll;
 	private double fee;
+	public Student2(String name,int roll,double fee){
+		this.name = name;
+		this.roll = roll;
+		this.fee = fee;
+	}
 	public String getName() {
 		return name;
 	}
@@ -25,5 +27,11 @@ public class Encap1 {
 	public void setFee(double fee) {
 		this.fee = fee;
 	}
-
+	@Override
+	public int compareTo(Student2 o) {
+		// TODO Auto-generated method stub
+		return 0;
 	}
+
+
+}
